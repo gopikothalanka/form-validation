@@ -48,11 +48,11 @@ body {
   margin-bottom: 1rem;
   position: relative;
 }
-.form-control .label1 {
+.form-control label {
   display: block;
   font-size: 1.6rem;
 }
-.form-control .input1 {
+.form-control input {
   display: block;
   font-size: 1.5rem;
   width: 100%;
@@ -61,17 +61,17 @@ body {
   border: 2px solid var(--blue-dray);
   border-radius: 0.3rem;
 }
-.form-control .input1:focus {
+.form-control input:focus {
   outline: 0;
   border-color: var(--primary-text);
 }
-.form-control .check-box {
+.form-control.check-box {
   text-align: end;
 }
-.form-control .error.input1 {
+.form-control.error input {
   border-color: var(--red);
 }
-.form-control .success .input1 {
+.form-control.success input {
   border-color: var(--dark-gray);
 }
 
